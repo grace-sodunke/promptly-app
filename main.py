@@ -7,7 +7,7 @@ app = Flask(__name__)
 # allow requests from any origin to any endpoint by adding CORS headers to responses
 CORS(app)
 
-sheet_id = '1fcwidJ63I5zp6kmHW2PCAGnM6ykgs-6FZ2iH1owGeXI' # TODO: pull into env variable
+sheet_id = ''
 
 sheet = sheet_api.init_sheet()
 
